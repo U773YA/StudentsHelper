@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:id="@+id/college_logo"
+            android:background="@drawable/st_xavier_logo"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/line_1"
+                android:text="St. Xavier's College (Autonomous) Kolkata"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="Established in 1860"
+                android:id="@+id/line_2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/line_3"
+                android:text="Autonomous College (2006), College with Potential for Excellence (2006), College of Excellence (2014), College with a Special Heritage Status (2015),  A++ College with 3.77 CGPA (2017) "
+                android:textColor="#FFA500"
+                android:textSize="9dp"
+                android:layout_marginTop="2dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+        <TextView
+            android:id="@+id/copyright_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=""
+            android:textSize="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="NIHIL ULTRA: Nothing Beyond"
+        android:id="@+id/motto"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="5dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>

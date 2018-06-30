@@ -13,6 +13,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -95,7 +96,7 @@ public class LoginPage extends AppCompatActivity {
                                             QueryPreferences.setusername(getApplicationContext(),name);
                                             QueryPreferences.setcinnumber(getApplicationContext(),cin);
                                             obj.state_login_page=false;
-                                            Intent intent=new Intent(LoginPage.this,MainPage.this);
+                                            Intent intent=new Intent(LoginPage.this,MainPage.class);
                                             startActivity(intent);
                                         }else if(result.equalsIgnoreCase("wrong password")){
                                             Toast.makeText(LoginPage.this,"Password Incorrect.",Toast.LENGTH_SHORT).show();
