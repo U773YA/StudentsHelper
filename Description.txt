@@ -1,0 +1,4 @@
+This was our BSc Final Year Project.
+There are two applications. The basic purpose of this project was to emulate the Student's Section of our College Website in an android app, i.e basically to check our semester and 
+mid-semester marks and also check our attendance. The admin app was designed to upload the respective student's marks and attendance.
+We also wanted the student to check the notices through the noticeboard in our application tough the notice board update feature was not introduced in the admin app.
