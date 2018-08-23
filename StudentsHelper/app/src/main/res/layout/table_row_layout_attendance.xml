@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/tr_row"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_weight="1"
+        android:text="SUBJECT CODE"
+        android:textColor="#139b94"
+        android:textSize="18sp"
+        android:padding="2dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/ca"
+        android:layout_weight="1"
+        android:text="CLASSES ATTENDED"
+        android:textSize="18sp"
+        android:textColor="#139b94"
+        android:padding="2dp"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/ct"
+        android:layout_weight="1"
+        android:text="CLASSES TAKEN"
+        android:textSize="18sp"
+        android:textColor="#139b94"
+        android:padding="2dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/per"
+        android:layout_weight="1"
+        android:text="PERCENTAGE"
+        android:textSize="18sp"
+        android:textColor="#139b94"
+        android:padding="2dp"
+        android:gravity="center"/>
+
+</TableRow>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.student.sxc.studentshelper.IDBack"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:id="@+id/tl"
+    >
+
+        <TableRow android:orientation="horizontal"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:layout_width="match_parent"
+            >
+            <TextView android:text="Guardian's Name:"/>
+            <TextView android:text=""
+                android:id="@+id/gname"
+                android:layout_marginLeft="20dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView android:text="Permanent Address:" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/address"
+                android:lines="2"
+                android:text="" />
+        </TableRow>
+
+        <TableRow android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="Phone No.:"/>
+            <TextView android:text="123456789/8100744940"
+                android:id="@+id/phone"
+                android:layout_marginLeft="20dp"/>
+        </TableRow>
+        <TableRow android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_weight="1"
+                android:layout_span="2"
+                android:lineSpacingExtra="0.8mm"
+                android:lines="4"
+                android:text="1. This ID card must be carried by its owner when in college\n2. Failure to produce the ID card when asked by authorities attracts disciplinary action.\n3. The ID card becomes void on completion/discontinuance of the course/dismissal.\n4. The loss of this card should be reported to the office immediately." />
+        </TableRow>
+    </TableLayout>

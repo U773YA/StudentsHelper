@@ -1,29 +1,47 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.student.sxc.studentshelper">
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/st_xavier_logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/st_xavier_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".SplashScreenActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
+
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity android:name=".LoginPage"
                   android:windowSoftInputMode="stateAlwaysHidden">
         </activity>
+
         <activity android:name=".MainPage"
                   android:label="@string/app_name"
                   android:theme="@style/AppTheme.NoActionBar"
                   android:screenOrientation="portrait"></activity>
         <activity android:name=".SignUp"
                   android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity android:name=".ChangePasswordpost"
+                  android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity android:name=".AbsentDept"></activity>
+        <activity android:name=".Noticeboard" android:theme="@style/AppTheme.NoActionBar" android:screenOrientation="portrait"></activity>
+        <activity android:name=".Edit_Notice_Page"></activity>
+        <activity android:name=".Edit_Notice_List"></activity>
+        <activity android:name=".Marks" android:screenOrientation="landscape" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Attendance" android:screenOrientation="landscape"  android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Sem_Chooser" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".IDFront" android:screenOrientation="landscape" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".IDBack" android:screenOrientation="landscape" android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".ForgotPassword" android:windowSoftInputMode="stateAlwaysHidden"></activity>
         <activity android:name=".ChangePasswordpre" android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity android:name=".AbsentTeachers"></activity>
+        <activity android:name=".Notice_Images"></activity>
+        <activity android:name=".Events"></activity>
+
     </application>
 </manifest>

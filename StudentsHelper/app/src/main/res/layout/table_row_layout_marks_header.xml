@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/tr_row"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/paper_code"
+        android:layout_weight="1"
+        android:background="@drawable/squarecorner2"
+        android:text="PAPER CODE"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:padding="2dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/fm"
+        android:background="@drawable/squarecorner2"
+        android:layout_weight="1"
+        android:text="FM"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:padding="2dp"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/qm"
+        android:background="@drawable/squarecorner2"
+        android:layout_weight="1"
+        android:text="QM"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:padding="2dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/cia"
+        android:layout_weight="1"
+        android:background="@drawable/squarecorner2"
+        android:text="CIA"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:padding="2dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/se"
+        android:layout_weight="1"
+        android:background="@drawable/squarecorner2"
+        android:text="SE"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:padding="2dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_weight="1"
+        android:background="@drawable/squarecorner2"
+        android:text="TOTAL"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:padding="2dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/grade"
+        android:layout_weight="1"
+        android:background="@drawable/squarecorner2"
+        android:text="GRADE"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:padding="2dp"
+        android:gravity="center"/>
+
+</TableRow>

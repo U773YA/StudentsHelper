@@ -7,7 +7,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/app_bar_mainpage"
-    tools:context="com.project.semester6.sxc_student_helper.MainPage"
+    tools:context="com.student.sxc.studentshelper.MainPage"
     android:background="#FFFFFF">
     <LinearLayout
         android:layout_width="match_parent"
